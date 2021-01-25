@@ -12,7 +12,7 @@ yet written in Rust. That said, unless there are some critical bugs,
 I likely will not be updating this project.
 
 Further information on building and using this tool can be found in each
-component's respective README.md files. [here](server/README.md) and [here](implant/README.md).  
+component's respective README.md files. [server](server/README.md) and [client](client/README.md).  
 
 Rustup/Cargo is required to build these, information for installing these can be located [here](https://www.rust-lang.org/tools/install).
 
