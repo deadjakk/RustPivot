@@ -12,5 +12,6 @@ Usage:
 There is no interaction with this server, just information
 regarding the state of the socks communication.
 
-Note: I would advise against using 'localhost:2020' and instead opt for 127.0.0.1:<port>
-  for the frontend address, as proxychains gave me issues.
+After the client has successfully connected back to the server,
+place `socks5 127.0.0.1 2020` in `/etc/proxychains.conf`  
+and proxy your traffic using `proxychains <command>` or use via browser, etc.  
