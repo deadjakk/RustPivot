@@ -16,4 +16,4 @@ component's respective README.md files. [server](server/README.md) and [client](
 
 Rustup/Cargo is required to build the component binaries, information for installing these can be located [here](https://www.rust-lang.org/tools/install).
 
-Build binaries will be placed in ./target/release/ if --release is used during compilation or ./target/debug if --release was NOT used.
+Build binaries will be placed in `./target/release/` if `--release` is used during compilation or `./target/debug/` if `--release` was NOT used.
