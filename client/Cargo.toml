@@ -1,0 +1,8 @@
+[package]
+name = "client"
+version = "0.0.2"
+description = "A reverse SOCKS5 Proxy client written in Rust"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
