@@ -11,3 +11,6 @@ Usage:
 
 There is no interaction with this server, just information
 regarding the state of the socks communication.
+
+Note: I would advise against using 'localhost:2020' and instead opt for 127.0.0.1:<port>
+  for the frontend address, as proxychains gave me issues.
