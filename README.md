@@ -14,5 +14,6 @@ I likely will not be updating this project.
 Further information on building and using this tool can be found in each
 component's respective README.md files. [server](server/README.md) and [client](client/README.md).  
 
-Rustup/Cargo is required to build these, information for installing these can be located [here](https://www.rust-lang.org/tools/install).
+Rustup/Cargo is required to build the component binaries, information for installing these can be located [here](https://www.rust-lang.org/tools/install).
 
+Build binaries will be placed in ./target/release/ if --release is used during compilation or ./target/debug if --release was NOT used.
