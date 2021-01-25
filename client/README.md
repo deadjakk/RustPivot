@@ -1,10 +1,14 @@
-# RustPivot Implant
+# RustPivot Implant  
 
-Requires the rustup/cargo to build the binary
-First edit the 'port' and 'ip' variables in src/main.rs to match the backend
+### Building  
+1. First edit the 'port' and 'ip' variables in src/main.rs to match the backend
 address configured for server.
-Then build with: 
-cargo build --release --bin implant
+2. Then build with: 
+`cargo build --release --bin implant`
+3. Then run with `./implant` or `.\implant.exe` (Windows)  
 
-Note: it will build for whatever operating system it is compiled on unless
-specified otherwise via the --target flag
+### Usage Tips  
+- After building, run `strip` against the resulting binary to significantly reduce the binary size.   
+- Look into using LTO and optimization for size to further reduce binary size.  
+- It will build for whatever operating system it is compiled on unless
+specified otherwise via the `--target` flag.  
